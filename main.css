@@ -19,7 +19,7 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0 auto;
   max-width: 1024px;
-  padding: 7.25vw 4.83vw;
+  padding: 7.25vw 4.83vw 24.15vw;
 }
 @media screen and (min-width: 768px) {
   body {
@@ -64,12 +64,31 @@ body {
   margin-top: 4.83vw;
   margin-left: 5.56vw;
 }
+.about-site-wrapper a {
+  color: var(--base-blue);
+  display: block;
+  font-size: 3.86vw;
+  line-height: 5.31vw;
+  margin-top: 4.83vw;
+  margin-left: 5.56vw;
+}
+.about-site-wrapper a:hover {
+  text-decoration: underline;
+}
 @media screen and (min-width: 768px) {
   .about-site-wrapper h2 {
     font-size: 2rem;
     margin-top: 4rem;
   }
   .about-site-wrapper p {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    margin-top: 2rem;
+    margin-left: 2.4rem;
+  }
+  .about-site-wrapper a {
+    color: var(--base-blue);
+    display: block;
     font-size: 1.6rem;
     line-height: 2.2rem;
     margin-top: 2rem;
@@ -141,12 +160,31 @@ body {
   margin-top: 4.83vw;
   margin-left: 5.56vw;
 }
+.message-wrapper a {
+  color: var(--base-blue);
+  display: block;
+  font-size: 3.86vw;
+  line-height: 5.31vw;
+  margin-top: 4.83vw;
+  margin-left: 5.56vw;
+}
+.message-wrapper a:hover {
+  text-decoration: underline;
+}
 @media screen and (min-width: 768px) {
   .message-wrapper h2 {
     font-size: 2rem;
     margin-top: 4rem;
   }
   .message-wrapper p {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    margin-top: 2rem;
+    margin-left: 2.4rem;
+  }
+  .message-wrapper a {
+    color: var(--base-blue);
+    display: block;
     font-size: 1.6rem;
     line-height: 2.2rem;
     margin-top: 2rem;
