@@ -102,7 +102,7 @@ body {
 }
 .explain-main-wrapper h2 {
   font-size: 4.83vw;
-  margin-top: 9.66vw;
+  margin-top: 14vw;
 }
 .explain-main-pictxt {
   align-items: center;
@@ -116,8 +116,7 @@ body {
   margin-right: auto;
 }
 .explain-main-wrapper img {
-  border: 1px solid var(--base-white);
-  margin-top: 2.42vw;
+  margin-top: 5vw;
   width: 100%;
 }
 @media screen and (min-width: 768px) {
@@ -130,7 +129,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: left;
-    margin-top: 3rem;
+    margin-top: 8rem;
   }
   .explain-main-wrapper p {
     font-size: 1.6rem;
@@ -138,7 +137,6 @@ body {
     margin: 0 auto;
   }
   .explain-main-pictxt img {
-    border: 1px solid var(--base-white);
     display: block;
     margin-top: 0;
     margin-right: 2rem;
